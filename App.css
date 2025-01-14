@@ -1,0 +1,62 @@
+@font-face {
+  font-family: 'circular-std-medium';
+  src: url(./assets/FontsFree-Net-Circular-Std-Medium.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'circular-std-bold';
+  src: url(../assets/FontsFree-Net-Circular-Std-Medium.ttf) format('truetype');
+}
+
+*
+{
+  margin: 0;
+  padding: 0;
+}
+nav
+{
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 130px;
+  font-family: 'circular-std-medium';
+  font-size: 21px;
+  font-weight: 400;
+  line-height: normal;
+  
+}
+li
+{
+  list-style: none;
+  
+}
+ul
+{
+  display: flex;
+  gap: 60px;
+  padding: 20px;
+
+}
+button
+{
+  background-color: black;
+  color: white;
+  height: 50px;
+  width:165px;
+  border: 0;
+  position: relative;
+  bottom: 13px;
+}
+.seperation {
+  height: 1px;
+  background-color: rgb(147, 145, 145);
+  position: relative;
+  bottom: 40px;
+  z-index: 20;
+}
+.head
+{
+  text-align: center;
+  padding: 20px 0px;
+  font-family: 'circular-std-bold';
+  font-size: 40px;
+  font-weight: bolder;
+}
